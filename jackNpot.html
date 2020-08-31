@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<div class="game-container" style="margin:50px auto;background:#ffffef;padding:10px; max-width:340px;justify-content:center;align-items:center;border:3px solid #1d1d1d;text-align:center;">
+			<h1>Simple Jack n' Poy</h1>
+			<br>
+				<h2 style="color:red;">Player Score: 
+					<label id="p_score"></label>&nbsp; &nbsp; Computer Score: 
+					<label id="com_score"></label>
+				</h2>
+				<label>Player:</label>
+				<select id="player" onChange="pick_items()">
+					<option></option>
+					<option>Rock</option>
+					<option>Paper</option>
+					<option>Scissor</option>
+				</select>
+				<br>
+					<br>
+						<label>Computer:</label>
+						<span id="demo"></span>
+						<br>
+							<br>
+								<img id="player_pick" src="" style="width:150px;height:150px;border:3px solid #1d1d1d;"> &nbsp; &nbsp; 
+									<img id="computer_pick" src="" style="border:3px solid #1d1d1d;width:150px;height:150px;">
+										<br>
+											<br>
+												<button onclick="JackNPoy()" style="cursor:pointer;background:#2da2d8;color:#ffffff;border:none;border-radius:20px;padding:10px;width:150px;">Jack N' Poy</button>
+											</div>
+											<script type="text/javascript" src="js/app.js"></script>
+										</body>
+									</html>
